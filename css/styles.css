@@ -1,0 +1,153 @@
+html{
+  background-color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+li{
+  color: #3092B9;
+  font-size: 20px;
+
+}
+}
+.logo {
+float: right;
+}
+body{
+  background:url(.jpg)no-repeat;
+  background-size: cover;
+  font-family: Arial;
+  color: white;
+}
+
+
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.slider {
+	width: 1024px;
+	margin: 2em auto;
+
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 110%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+
+.mixtape {
+ float: left;
+ margin-left: 4%;
+ width: 65%;
+}
+
+.mac {
+ float: right;
+ margin-right: ;
+}
+.drunken {
+ float: left;
+ margin-left: 1%;
+ width: 65%;
+}
+.iggy {
+ float: right;
+ margin-left: 1%;
+ width: 65%;
+}
+.world-boss {
+ float: left;
+ margin-left: 1%;
+ width: 65%;
+}
+
+.wrap{
+  display: inline-block;
+  margin: 1em;
+  border: 1px solid black;
+  position: relative;
+}
+
+.wrap img{
+  display: block;
+  transition: opacity .25s ease;
+}
+.wrap a{
+  display: block;
+  transition: opacity .25s ease;
+}
+.wrap:hover a{
+  opacity: .7;
+}
+.wrap:hover img{
+  opacity:.2;
+}
+
+.content{
+  position: sticky;
+  top: auto;
+}
+
+a{
+
+  font-style: italic;
+
+}
+h1{
+  color: #CB1B0C;
+  font-size: 50px;
+text-align: center;
+}
+
+h2{
+  color:#CB1B0C;
+
+
+}
+h3{
+  color: #CB1B0C;
+  font-size: 30px;
+  text-align: center;
+}
+h4{
+  color: #CB1B0C;
+  font-size: 20px;
+}
+p{
+  color: #F5BF31;
+  font-size: 25px;
+  text-align: center;
+}
